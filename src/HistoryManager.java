@@ -267,7 +267,7 @@ public class HistoryManager {
             // Compare the two snapshots
             System.out.println("\nComparing snapshots...");
             DiffResult result = manager.diffLatest();
-            manager.printDiffResult(result);
+            manager.printDiffResult(result);  //list error
 
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
